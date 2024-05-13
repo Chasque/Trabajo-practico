@@ -1,0 +1,123 @@
+* {
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+html{
+    font-size: 1rem;
+    box-sizing: 100px;
+}
+body, header, footer, main {
+    /* border: 3px red solid; */
+    min-height: 50px;
+    margin: 0.5rem;
+    min-width: 400px;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* box-shadow: 5px 5px 10px gray; */
+}
+main {
+    min-height: 200px;
+    overflow: auto;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+header {
+    background-color: #fff;
+    box-shadow: 5px 5px 10px gray;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #fff;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+main>div {
+    /* border: 2px blue solid; */
+    min-height: 180px;
+    margin: 0.5rem;
+    height: auto;
+    float: left;
+    width: 65%;
+
+}
+
+/* contenido ppal */
+main>aside {
+    /* border: 2px blue solid; */
+    min-height: 180px;
+    min-width: 25%;
+    margin: 0.5rem;
+    float: left;   
+    width: auto;
+}
+
+.secciones {
+    /* border: 2px green solid; */
+    min-height: 50px;
+    margin: 0.5rem;    
+}
+
+.secciones article{
+    /* border: 2px purple solid; */
+    margin: 0.5rem;
+    min-height: 20px;
+}
+
+#imach1 {
+    width: 100%;
+}
+    
+#imach2 {
+    width: 100%;
+}
+
+/* logo y menu */
+.header-logo{
+   width: auto;
+   display: inline-block;
+   margin: 0.5rem; 
+}
+
+.header-menubar {
+    left: auto;
+    position: relative;
+    top: auto;
+    width: auto;
+    display: inline-block;
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.header-menubar ul {
+    list-style-type: none;
+}
+
+.header-menubar li {
+    float: left;
+    font-weight: 100;
+    text-align: center;
+    padding: 0 1rem 0;
+}
+
+#logo {
+    width: 100%;
+    height: 10% ;
+}
+
+.header-menubar li {
+    text-decoration: none;
+    color: black;
+}
+
+.header-menubar li:hover {
+    color: blueviolet;
+}
+.header-menubar li a {
+    font-size: 1.5rem;
+    background: transparent;
+}
