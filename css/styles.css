@@ -436,7 +436,7 @@ a {
 
 
 }
-
+  
 
 
 
@@ -623,3 +623,80 @@ main>aside {
     font-size: 1.5rem;
     background: transparent;
 } */
+
+/* Estilos para la sección de Tips de nutrición deportiva */
+.tips-deportiva {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.tips-deportiva h2 {
+    font-size: 45px;
+    color: #303030;
+    margin-bottom: 30px;
+}
+
+.tips-deportiva .introduccion {
+    margin-bottom: 50px;
+}
+
+.tips-deportiva .introduccion img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.tips-deportiva .introduccion p {
+    font-size: 18px;
+    color: #545454;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.tips-deportiva .tip {
+    margin-bottom: 50px;
+}
+
+.tips-deportiva .tip h3 {
+    font-size: 20px;
+    color: #303030;
+    margin-bottom: 15px;
+}
+
+.tips-deportiva .tip p {
+    font-size: 16px;
+    color: #545454;
+    margin: 0 auto;
+    max-width: 600px;
+}
+.tips-deportiva .introduccion img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.macronutrientes {
+    margin-top: 50px;
+}
+
+.macronutrientes h3 {
+    font-size: 22px;
+    color: #303030;
+    margin-bottom: 20px;
+}
+
+.macronutrientes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.macronutrientes ul li {
+    font-size: 16px;
+    color: #545454;
+    margin-bottom: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
